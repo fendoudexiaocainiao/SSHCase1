@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="day17_web">
+      <Current>1</Current>
+    </schema>
+    <schema id="3" parent="1" name="day18_web"/>
+    <schema id="4" parent="1" name="day19_web"/>
+    <schema id="5" parent="1" name="hibernatetest"/>
+    <schema id="6" parent="1" name="hibernatezuoye"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="mysql"/>
+    <schema id="9" parent="1" name="performance_schema"/>
+    <schema id="10" parent="1" name="sakila"/>
+    <schema id="11" parent="1" name="springdatabasetest"/>
+    <schema id="12" parent="1" name="sshcase">
+      <Visible>1</Visible>
+    </schema>
+    <schema id="13" parent="1" name="sshintegrate"/>
+    <schema id="14" parent="1" name="store"/>
+    <schema id="15" parent="1" name="sys"/>
+    <schema id="16" parent="1" name="web_demo2"/>
+    <schema id="17" parent="1" name="world"/>
+    <table id="18" parent="12" name="clients"/>
+    <table id="19" parent="12" name="orders"/>
+    <column id="20" parent="18" name="c_id">
+      <Position>1</Position>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="21" parent="18" name="c_name">
+      <Position>2</Position>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="22" parent="18" name="c_phone">
+      <Position>3</Position>
+      <DataType>varchar(16)|0</DataType>
+    </column>
+    <column id="23" parent="18" name="c_imgsrc">
+      <Position>4</Position>
+      <DataType>varchar(512)|0</DataType>
+    </column>
+    <key id="24" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>c_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="25" parent="19" name="o_id">
+      <Position>1</Position>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="26" parent="19" name="o_receiver_address">
+      <Position>2</Position>
+      <DataType>varchar(256)|0</DataType>
+    </column>
+    <column id="27" parent="19" name="o_price">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="28" parent="19" name="o_c_id">
+      <Position>4</Position>
+      <DataType>varchar(32)|0</DataType>
+    </column>
+    <index id="29" parent="19" name="oders_clients_c_id_fk">
+      <ColNames>o_c_id</ColNames>
+    </index>
+    <key id="30" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>o_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="31" parent="19" name="oders_clients_c_id_fk">
+      <ColNames>o_c_id</ColNames>
+      <RefSchemaName>sshcase</RefSchemaName>
+      <RefTableName>clients</RefTableName>
+      <RefColNames>c_id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="UserLibraries">
+    <CLASSES>
+      <root url="file://E:/SSH/UserLibraries/JSTL" />
+      <root url="file://E:/SSH/UserLibraries/log4j" />
+      <root url="file://E:/SSH/UserLibraries/slf4j" />
+      <root url="file://E:/SSH/UserLibraries/DatabaseDriver" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/SSH/UserLibraries/JSTL" />
+      <root url="file://E:/SSH/UserLibraries/DatabaseDriver/src" />
+    </SOURCES>
+    <jarDirectory url="file://E:/SSH/UserLibraries/DatabaseDriver" recursive="false" />
+    <jarDirectory url="file://E:/SSH/UserLibraries/JSTL" recursive="false" />
+    <jarDirectory url="file://E:/SSH/UserLibraries/log4j" recursive="false" />
+    <jarDirectory url="file://E:/SSH/UserLibraries/slf4j" recursive="false" />
+    <jarDirectory url="file://E:/SSH/UserLibraries/JSTL" recursive="false" type="SOURCES" />
+  </library>
+</component>

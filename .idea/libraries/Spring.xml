@@ -1,0 +1,37 @@
+<component name="libraryTable">
+  <library name="Spring" type="spring">
+    <CLASSES>
+      <root url="jar://E:/SSH/SpringFramework/aopalliance-1.0.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/aspectjweaver.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/commons-logging-1.2.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-aop-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-aspects-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-beans-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-context-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-core-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-expression-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-jdbc-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-orm-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-test-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-tx-4.3.12.RELEASE.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/spring-web-4.3.12.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-aop-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-aspects-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-beans-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-context-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-core-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-expression-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-jdbc-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-orm-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-test-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-tx-4.3.12.RELEASE-javadoc.jar!/" />
+      <root url="jar://E:/SSH/SpringFramework/javadoc/spring-web-4.3.12.RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="file://E:/SSH/SpringFramework/src" />
+    </SOURCES>
+    <jarDirectory url="file://E:/SSH/SpringFramework/src" recursive="false" type="SOURCES" />
+  </library>
+</component>
