@@ -63,23 +63,23 @@
 			}, function (data) {
 
 
-				var json = eval("(" + data + ")");
+				var json = eval(data);
+				var clientsName = json.target.cName;
 				//{"currentCount":5,"pageNum":1,"totalCount":2,"totalPage":1}
 				var html = "";
-				var jsonObj = json.currentContent;
+				var jsonObj = json.target.orders;
 				for (var i = 0; i < jsonObj.length; i++) {
 					//将html代码组装
-					html += "<tr><td>" + jsonObj[i].orderNum + "</td><td>" + jsonObj[i].receiverInfo + "</td><td>" + jsonObj[i].price + "</td><td>" + jsonObj[i].customer.cusName + "</td><td><a href='#'>删除</a></td></tr>";
+					html += "<tr><td>" + jsonObj[i].oId + "</td><td>" + jsonObj[i].oReceiverAddress + "</td><td>" + jsonObj[i].oPrice + "</td><td>" + clientsName + "</td><td><a href='#'>删除</a></td></tr>";
 				}
 
 				$("#msg").html(html);
 
 				//分页信息处理
-				pageNum = json.pageNum;
-				totalPage = json.totalPage;
-				totalCount = json.totalCount;
-				currentCount = json.currentCount;
-
+				pageNum = json.currentPage;
+				totalPage = json.maxPages;
+				totalCount = json.maxRecords;
+				currentCount = json.currentRecords;
 				//展示分页组件
 				/*
 				<ul class="pagination">

@@ -2,18 +2,27 @@
   <library name="UserLibraries">
     <CLASSES>
       <root url="file://E:/SSH/UserLibraries/JSTL" />
-      <root url="file://E:/SSH/UserLibraries/log4j" />
       <root url="file://E:/SSH/UserLibraries/slf4j" />
       <root url="file://E:/SSH/UserLibraries/DatabaseDriver" />
+      <root url="jar://E:/SSH/UserLibraries/fastjson/fastjson-1.2.38.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/log4j-1.2-api-2.9.1.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/log4j-api-2.9.1.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/log4j-core-2.9.1.jar!/" />
     </CLASSES>
-    <JAVADOC />
+    <JAVADOC>
+      <root url="jar://E:/SSH/UserLibraries/log4j/javadoc/log4j-1.2-api-2.9.1-javadoc.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/javadoc/log4j-api-2.9.1-javadoc.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/javadoc/log4j-core-2.9.1-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="file://E:/SSH/UserLibraries/JSTL" />
       <root url="file://E:/SSH/UserLibraries/DatabaseDriver/src" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/src/log4j-1.2-api-2.9.1-sources.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/src/log4j-core-2.9.1-sources.jar!/" />
+      <root url="jar://E:/SSH/UserLibraries/log4j/src/log4j-api-2.9.1-sources.jar!/" />
     </SOURCES>
     <jarDirectory url="file://E:/SSH/UserLibraries/DatabaseDriver" recursive="false" />
     <jarDirectory url="file://E:/SSH/UserLibraries/JSTL" recursive="false" />
-    <jarDirectory url="file://E:/SSH/UserLibraries/log4j" recursive="false" />
     <jarDirectory url="file://E:/SSH/UserLibraries/slf4j" recursive="false" />
     <jarDirectory url="file://E:/SSH/UserLibraries/JSTL" recursive="false" type="SOURCES" />
   </library>
